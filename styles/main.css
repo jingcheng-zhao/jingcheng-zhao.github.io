@@ -1,24 +1,17 @@
-#first-paragraph{
+.talk-box{
   font-family: 'Montserrat','Noto Sans SC', sans-serif;
   font-size: 16px;
-  text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
   color: #000000;
   background: white;
   width: 100%;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 500; ;
 }
 
-#second-paragraph{
-  font-family: 'Montserrat','Noto Sans SC', sans-serif;
-  font-size: 16px;
-  text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
-  color: #000000;
-  background: white;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 500;
-}
 
+.talk-box{
+
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 10px rgb(255 255 255 / 20%);
+    margin: 0.5rem 0;
+    background: linear-gradient(0deg, #0000002e, #ffffff00);
+}
