@@ -1,11 +1,24 @@
 #first-paragraph{
-  background-color: rgb(131, 245, 255);
-  border: 1em solid rgb(0 105 255 / 28%);
-  border-radius: 1em;
+  font-family: 'Montserrat','Noto Sans SC', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  color: #000000;
+  background: white;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500; ;
 }
 
 #second-paragraph{
-  background-color: rgb(255, 106, 0);
-  border: 1em solid rgba(255, 187, 0, 0.28);
-  border-radius: 3em;
+  font-family: 'Montserrat','Noto Sans SC', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  color: #000000;
+  background: white;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
 }
+
