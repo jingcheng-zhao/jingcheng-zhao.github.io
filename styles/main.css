@@ -1,37 +1,89 @@
+body{
+  background-color: rgb(252, 249, 224);
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
 .talk-box{
   font-family: 'Montserrat','Noto Sans SC', sans-serif;
   font-size: 16px;
   color: #000000;
   background: white;
   text-align: center;
-  display: inline-block;
-  margin: auto;
+  display: block;
+  padding: 0.5rem ;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 10px rgb(255 255 255 / 20%);
+  margin: 0.5rem 0;
+  background: linear-gradient(0deg, #0000002e, #ffffff);
+  /* position:absolute; */
 }
 
 
-.talk-box{
-
-    padding: 0.5rem ;
-    border-radius: 2rem;
-    box-shadow: 3px 3px 10px rgb(255 255 255 / 20%);
-    margin: 0.5rem 0;
-    background: linear-gradient(0deg, #0000002e, #ffffff00);
-}
 
 #click-text{
   float:right;
 }
 
-h1{
+.center-heading{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  position:absolute;
   text-align: center;
 
 }
+h1{
+  position:absolute;
+  
+}
 
 .self-portrait, img{
-  width: 5rem;
+  width: 10rem;
   height: auto;
   display: block;
   margin-left:auto;
   margin-right: auto;
 }
 
+
+.J-checkbox{
+  width:200px;
+  height: auto;
+}
+
+
+@media (min-width: 320px){
+  body {
+    background-color: white;
+  }
+
+  #welcome-text{
+    float:left;
+  }
+
+  h1{
+    color: green;
+  }
+
+}
+
+@media (min-width: 768px){
+  #welcome-text{
+    float: right;
+    color: rgb(255, 255, 146);
+  }
+  h1{
+    color: rgb(187, 255, 0);
+  }
+
+  #click-text{
+    float:left;
+    color: rgb(123, 255, 224);
+  }
+
+  body{
+    background-color: #ff0000;
+  }
+}
