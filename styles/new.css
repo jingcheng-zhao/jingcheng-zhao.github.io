@@ -1,0 +1,36 @@
+/* 
+body{
+  position: relative;
+  width:100%;
+} */
+
+.box-style{
+  font-family: 'Montserrat','Noto Sans SC', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  /* background: white; */
+  /* display: inline-block; */
+  padding: 0.5rem ;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 10px rgb(255 255 255 / 20%);
+  /* margin: 0.5rem 0; */
+  background: linear-gradient(0deg, #0000002e, #ffffff);
+}
+
+#welcome-text{
+  text-align: center;
+  position:absolute;
+  left: 10%;
+}
+
+#click-text{
+  text-align: center;
+  position:absolute;
+  right: 10%;
+}
+
+.center-heading{
+  text-align: center;
+  /* position:absolute; */
+  /* display: inline-block; */
+}
