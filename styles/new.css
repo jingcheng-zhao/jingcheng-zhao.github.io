@@ -4,7 +4,8 @@
   /* width:100%;
   height: auto; */
   background-image: url(../images/jing-self-portrait.png);
-  background-size:contain;
+  background-size:500px auto;
+  background-repeat:repeat-y;
 }
 
   .center-heading{
@@ -24,6 +25,8 @@
   h1{
     text-align: center;
     font-size: 40px;
+    color:#c6c6c6;
+  
   }
 
 
